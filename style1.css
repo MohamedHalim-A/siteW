@@ -1,13 +1,17 @@
+*{
+    box-sizing: border-box;
+}
 body{
-    background-color: aqua;
+    background-color: greenyellow;
 }
 ul#menu{
-    background-color: rgb(190, 39, 39);
+    background-color: burlywood;
     padding: 0px;
 }
 ul#menu{
     color: black;
     font-weight: bold;
+    margin: auto;
 }
 ul#menu a{
     text-decoration: none;
@@ -22,6 +26,38 @@ ul#menu>li{
 nav>div>ul#menu{
     display: flex;
 }
-p#logo{
+p#logo
+{
     font-weight: bold;
+    background-color: darkred;
+}
+p#logo img{
+    font-weight: bold;
+    width: 60px;
+}
+ul#menu>li:hover{
+    border-bottom: 3px RGB(20,20,240) solid;
+}
+
+div#menuPrincipale{
+    display: flex;
+}
+
+.article-wrapper img, 
+.article-wrapper p{
+    width: 400px;
+}
+.section-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    border: 2px solid;
+    
+}
+.article-wrapper{
+    background-color: darkblue;
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
 }
