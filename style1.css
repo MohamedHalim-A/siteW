@@ -1,0 +1,27 @@
+body{
+    background-color: aqua;
+}
+ul#menu{
+    background-color: rgb(190, 39, 39);
+    padding: 0px;
+}
+ul#menu{
+    color: black;
+    font-weight: bold;
+}
+ul#menu a{
+    text-decoration: none;
+}
+ul#menu li{
+    list-style-type: none;
+}
+ul#menu>li{
+    padding: 7px, 0px;
+    margin: 20px;
+}
+nav>div>ul#menu{
+    display: flex;
+}
+p#logo{
+    font-weight: bold;
+}
