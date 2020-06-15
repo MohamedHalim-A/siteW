@@ -22,3 +22,15 @@
     background-color: #ddd;
     color: black;
 }
+
+.header {
+    padding: 50px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+  }
+  
+
+  .header h1 {
+    font-size: 40px;
+  }
