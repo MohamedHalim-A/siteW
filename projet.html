@@ -26,9 +26,102 @@
         </nav>
         <div class="principale">
             <section>
-                <p>Vous etes dans projet</p>
-                <h3>Bientot l'implementation</h3>
+                <h3>Les projets auquel je travail sont :</h3>
             </section>
         </div>
+        <!--debut des tabs, les liens-->
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'London')">Application Ionic</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">Calculatrice JAVA</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">GUI Question/Reponss</button>
+          </div>
+          
+          <!-- Tab content -->
+          <div id="London" class="tabcontent">
+            <h2>Application ionic de E-commerce</h2>
+            <section>
+                <article>
+                    <p>Ionic est un framework proposant la création par un seul code, des applications mobiles pouvant ciblés les différentes plateformes.</p>
+                    <p>Je vous propose donc une thematique de creation d'une application de E-commerce.</p>
+                    <h2>DEVELOPPEMENT D’UNE APPLICATION HYBRIDE DE COMMERCE ELECTRONIQUE.</h2>
+                    <h3 class="titre3">Remerciement</h3>
+                    <p>Mes sincères remerciements à tous ceux qui ont contribué de près ou de loin dans la réalisation de ce projet,
+                        de mon encadrant Pr. Samir Mbarki, aux différents enseignants qui nous ont accompagné tout au long de notre cursus à la Faculté des Sciences d’Ibn Tofail de Kenitra.
+                        Une pensée spéciale pour nos familles pour avoir été toujours présentes avec patience et encouragement.
+                    </p>
+                    <h3 class="titre3">Introduction</h3>
+                    <p>L’achat des produits se fait principalement par le déplacement vers le magasin, ou les supermarchés afin de pouvoir acheter ce qu’on veut. Et par rapport à ça, les 
+                        clients peuvent être confrontés par la distance pour aller acheter, faire la queue pour attendre son tour pour payer, et d’autre situation qui désavantage le client.
+                         Ainsi pour remédier à cela, le département d’informatique de la faculté des sciences de l’université Ibn Tofail de kenitra nous a chargé de développer une application
+                          mobile multiplateforme qui facilitera la situation des clients. Cette application permettra aux clients de faire des achats n’importe où (dans un milieu géographique 
+                          bien déterminer), n’importe quand, et sur n’importe quel type de système d’exploitation (Ios, Android ou web).
+                        Ce document présente l’application qu’on a réalisée et contient donc les principaux processus qui nous ont permis d’aboutir à sa bonne réalisation. Ainsi ce document 
+                        est structuré sous cette forme :
+                        <ul>
+                            <li>Cadre et présentation du projet : il s’agit, dans cette partie, de faire une présentation du projet en précisant le besoin ayant conduit à sa réalisation.</li>
+                            <li>Conception de l’application : on va présenter dans cette partie une approche logique de ce que sera l’application et comment arriver à réaliser les objectifs qu’on s’est fixé.</li>
+                            <li>Réalisation de l’application : la réalisation du système permet de voir comment l’application se présente de façon plus concrète en proposant en vue de ces différentes structures.</li>
+                        </ul>                        
+                    </p>
+                    <h3 class="titre3">Cadre et présentation du projet</h3>
+                </article>
+                <article>
+                    <p>Cette partie consiste à établir une première présentation de notre projet. On y précise le pourquoi de sa réalisation et les objectifs que l’on s’est fixé.  
+                        <ol>
+                            <li>Cadre du projet</li><p>Pour l’obtention du diplôme de Licence en Sciences Mathématiques et Informatiques à la Faculté des Sciences de l’Université Ibn Tofail, Nous allons réaliser un projet de fin d’étude qui consistera à développer une application mobile multiplateforme. Ainsi il nous a été demandé de créer une application mobile de commerce électronique qui permettra à faire des achats en ligne.</p>
+                            <li>Etude de l’existant
+                                <ol>
+                                    <li>Description de l’existant</li><p> L’achat de produits dans les magasins ou les supermarchés prend  énormément de temps, précieux pour les clients. Pour pouvoir acheter un produit, le client est obligé de se déplacer vers le magasin.</p>
+                                    <li>Critique de l’existant</li><p>Pour acheter un produit, le client doit se déplacer dans des endroits parfois éloigner ou distant afin de pouvoir se procurer ses besoins commerciaux. En plus, il peut aussi être confronté à des difficultés supplémentaires comme le temps d’attente avant le payement. Il peut aussi ne pas trouver le produit dans le magasin, donc des dépenses énergétiques et financières peuvent être considérables.</p>
+                                    <li>Solutions proposées</li><p>Dans l’optique d’améliorer et de résoudre ces problèmes, on a imaginé une solution technologique, la mise en place d’une application mobile qui va permettre aux clients de faire leurs achats sans pour autant être confronté aux problèmes cités ci-dessus.</p>
+                                    <li>Processus </li><p> Cette application va permettre de mettre en relation les clients aux magasins afin de pouvoir faire leurs achats en ligne. Le responsable du magasin va se charger de publier les différents articles (ou produits) avec leurs descriptions, que le client pourra consulter et éventuellement acheter.</p>
+                                </ol>
+                            </li>
+                            <li>Spécification des besoins<p>La spécification des besoins est une phase très importante dans le développement de notre application. Il s’agit en fait de comprendre le système et le contexte dans lequel il s’inscrit. On déterminera ici donc les fonctionnalités et acteurs les plus importants de l’application.</p>
+                                <ol>
+                                    <li>Gestion des comptes</li><p>Les clients doivent disposer d’un compte pour pouvoir acheter des articles dans le magasin. Ils peuvent néanmoins consulter les articles sans pour autant être connecté.</p>
+                                    <li>Accès à l’application</li><p>Après sa réalisation, l’application sera disponible dans des plateformes de téléchargement tels que Play Store.</p>
+                                </ol>
+                            </li>
+                        </ol>       
+
+                    </p>
+                </article>
+            </section>
+          </div>
+          
+          <div id="Paris" class="tabcontent">
+            <h3>Calculatric java</h3>
+            <p>Bientot disponible</p>
+          </div>
+          
+          <div id="Tokyo" class="tabcontent">
+            <h3>GUI Question/Reponse</h3>
+            <p>Bientot disponible</p>
+          </div>
+          <!--fin tab 3tabs-->
+
+          <script>
+            function openCity(evt, cityName) {
+
+              var i, tabcontent, tablinks;
+
+              // Get all elements with class="tabcontent" and hide them
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                  tabcontent[i].style.display = "none";
+              }
+
+              // Get all elements with class="tablinks" and remove the class "active"
+              tablinks = document.getElementsByClassName("tablinks");
+              for (i = 0; i < tablinks.length; i++) {
+                  tablinks[i].className = tablinks[i].className.replace(" active", "");
+              }
+
+              // Show the current tab, and add an "active" class to the button that opened the tab
+              document.getElementById(cityName).style.display = "block";
+              evt.currentTarget.className += " active";
+              }
+        </script>
     </body>
 </html>

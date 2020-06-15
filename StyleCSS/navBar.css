@@ -47,6 +47,7 @@
     margin: 6px 0;
     display: none;
   }
+
   @media screen and (max-width: 561px) {
     div.menuIcone{
         display: block;
