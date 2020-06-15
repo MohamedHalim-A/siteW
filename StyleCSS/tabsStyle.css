@@ -41,3 +41,14 @@
       background-color: burlywood;
       display: inline-block;
   }
+  @media screen and (max-width: 553px) {
+    .tab{
+      display: inline-block;
+    }
+    .tab button {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
