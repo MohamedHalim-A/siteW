@@ -2,62 +2,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: greenyellow;
+    background-color: rgb(198, 216, 171);
 }
-ul#menu{
-    background-color: burlywood;
-    padding: 0px;
-}
-ul#menu{
-    color: black;
-    font-weight: bold;
-    margin: auto;
-}
-ul#menu a{
-    text-decoration: none;
-}
-ul#menu li{
-    list-style-type: none;
-}
-ul#menu>li{
-    padding: 7px, 0px;
-    margin: 20px;
-}
-nav>div>ul#menu{
-    display: flex;
-}
-p#logo
-{
-    font-weight: bold;
-    background-color: darkred;
-}
-p#logo img{
-    font-weight: bold;
-    width: 60px;
-}
-ul#menu>li:hover{
-    border-bottom: 3px RGB(20,20,240) solid;
-}
-
-div#menuPrincipale{
-    display: flex;
-}
-
-.article-wrapper img, 
-.article-wrapper p{
-    width: 400px;
-}
-.section-wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    margin: auto;
-    border: 2px solid;
-    
-}
-.article-wrapper{
-    background-color: darkblue;
-    width: 50%;
-    margin: auto;
-    overflow: hidden;
+.principale{
+    margin-top: 70px;
 }
